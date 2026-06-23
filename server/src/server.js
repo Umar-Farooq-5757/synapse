@@ -13,6 +13,4 @@ app.get('/about', (req, res) => {
     res.send('about page');
 });
 
-app.listen(PORT, () => {
-    console.log(`Server is listening on port ${PORT}`);
-});
+export default app
