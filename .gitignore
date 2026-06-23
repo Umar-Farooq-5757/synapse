@@ -1,0 +1,40 @@
+# ====================================================================
+# Monorepo Root level ignores
+# ====================================================================
+node_modules/
+.npm/
+.eslintcache
+*.log
+.DS_Store
+Thumbs.db
+
+# ====================================================================
+# Backend (Server) Ignores
+# ====================================================================
+server/node_modules/
+server/.env
+server/.env.*
+server/dist/
+server/build/
+server/logs/
+
+# ====================================================================
+# Frontend (Client) Ignores
+# ====================================================================
+client/node_modules/
+client/.env
+client/.env.local
+client/.env.development.local
+client/.env.test.local
+client/.env.production.local
+
+# Production Build outputs (React, Vite, Next.js, Vue, etc.)
+client/dist/
+client/build/
+client/.next/
+client/out/
+
+# Testing
+client/coverage/
+
+brainstorming.txt
